@@ -1,0 +1,40 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('img/77ef4391381cc9ef174a0b1d0b4ef4d3.jpg') center/cover no-repeat; /* Cambia 'tu_imagen_de_fondo.jpg' por la ruta de tu imagen */
+}
+
+header {
+    background-color: #4781bc; /* Puedes cambiar el color de fondo según tus preferencias */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
